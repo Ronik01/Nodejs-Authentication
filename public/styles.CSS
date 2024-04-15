@@ -1,0 +1,31 @@
+/* Style the form container */
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Style form inputs */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Change submit button color on hover */
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
